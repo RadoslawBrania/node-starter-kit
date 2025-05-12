@@ -29,3 +29,4 @@ jobs:
         yarn install --no-immutable
         yarn lint
         yarn tsc
+        yarn build
