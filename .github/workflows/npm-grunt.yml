@@ -25,6 +25,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        yarn set version latest
         yarn install
         yarn build
