@@ -25,5 +25,6 @@ jobs:
     - name: Test
       run: |
         npm install
+        yarn install
         yarn lint
         yarn tsc
