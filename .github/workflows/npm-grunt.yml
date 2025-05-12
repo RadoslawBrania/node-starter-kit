@@ -30,3 +30,7 @@ jobs:
         yarn lint
         yarn tsc
         yarn build
+    - uses: actions/upload-artifact@v4
+      with:
+        name: BuildArtifact
+        path: .build/*
