@@ -25,6 +25,7 @@ jobs:
     - name: Test
       run: |
         npm install
-        yarn install
+        yarn set version latest
+        yarn install --no-immutable
         yarn lint
         yarn tsc
